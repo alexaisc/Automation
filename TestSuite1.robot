@@ -43,3 +43,6 @@ Login
 
 GoToHomePage
     Open Browser    ${url}    chrome
+    
+LogOut
+    Input Text      id=txtUsername    
